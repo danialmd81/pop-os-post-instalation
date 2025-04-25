@@ -236,6 +236,12 @@ echo "Installing SMPlayer..."
 sudo apt install -y smplayer
 echo "SMPlayer installed successfully!"
 
+# Install Git LFS
+echo "Installing Git LFS (Large File Storage)..."
+sudo apt install -y git-lfs
+git lfs install
+echo "Git LFS installed and initialized successfully!"
+
 # Fixing the System Clock
 echo "Fixing the system clock to match Windows time format..."
 sudo timedatectl set-local-rtc 1 --adjust-system-clock

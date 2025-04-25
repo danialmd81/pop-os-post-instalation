@@ -72,6 +72,10 @@ OBS Studio is a free and open-source software for video recording and live strea
 
 SMPlayer is a free media player with built-in codecs that can play virtually all video and audio formats.
 
+### [Git LFS](https://git-lfs.com/)
+
+Git LFS (Large File Storage) is an extension for Git that allows you to version control large files efficiently.
+
 ## Usage
 
 1. Follow the links above to download and install the recommended tools.
