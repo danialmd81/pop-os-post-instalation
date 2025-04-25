@@ -68,6 +68,10 @@ uGet is a powerful and lightweight download manager for Linux.
 
 OBS Studio is a free and open-source software for video recording and live streaming.
 
+### [SMPlayer](https://www.smplayer.info/)
+
+SMPlayer is a free media player with built-in codecs that can play virtually all video and audio formats.
+
 ## Usage
 
 1. Follow the links above to download and install the recommended tools.

@@ -231,6 +231,11 @@ echo "Installing OBS Studio..."
 sudo apt install -y obs-studio
 echo "OBS Studio installed successfully!"
 
+# Install SMPlayer
+echo "Installing SMPlayer..."
+sudo apt install -y smplayer
+echo "SMPlayer installed successfully!"
+
 # Fixing the System Clock
 echo "Fixing the system clock to match Windows time format..."
 sudo timedatectl set-local-rtc 1 --adjust-system-clock
