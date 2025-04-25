@@ -64,6 +64,10 @@ Telegram is a cloud-based messaging app with a focus on speed and security.
 
 uGet is a powerful and lightweight download manager for Linux.
 
+### [OBS Studio](https://obsproject.com/)
+
+OBS Studio is a free and open-source software for video recording and live streaming.
+
 ## Usage
 
 1. Follow the links above to download and install the recommended tools.

@@ -117,8 +117,8 @@ sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker $USER
 sudo usermod -aG docker root
+sudo newgrp docker
 echo "Docker installed and started successfully! Please log out and log back in to apply group changes."
-
 # Configure Docker registry mirror
 echo "Configuring Docker registry mirror..."
 sudo bash -c 'cat > /etc/docker/daemon.json <<EOF
@@ -225,6 +225,11 @@ echo "Telegram installed successfully!"
 echo "Installing uGet..."
 sudo apt install -y uget
 echo "uGet installed successfully!"
+
+# Install OBS Studio
+echo "Installing OBS Studio..."
+sudo apt install -y obs-studio
+echo "OBS Studio installed successfully!"
 
 # Fixing the System Clock
 echo "Fixing the system clock to match Windows time format..."
