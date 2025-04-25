@@ -139,7 +139,7 @@ echo "Git configured successfully!"
 
 # Install GNOME Extensions
 echo "Installing GNOME Extensions..."
-gext install 517 240 945 36 6003 1634
+gext install 517 240 945 36 6003 1634 906
 echo "GNOME Extensions installed successfully!"
 
 # Install R
