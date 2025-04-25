@@ -60,6 +60,10 @@ Cisco Packet Tracer is a powerful network simulation tool that allows you to des
 
 Telegram is a cloud-based messaging app with a focus on speed and security.
 
+### [uGet](https://ugetdm.com/)
+
+uGet is a powerful and lightweight download manager for Linux.
+
 ## Usage
 
 1. Follow the links above to download and install the recommended tools.

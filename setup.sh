@@ -211,6 +211,11 @@ Categories=Network;InstantMessaging;
 EOF'
 echo "Telegram installed successfully!"
 
+# Install uGet
+echo "Installing uGet..."
+sudo apt install -y uget
+echo "uGet installed successfully!"
+
 # Fixing the System Clock
 echo "Fixing the system clock to match Windows time format..."
 sudo timedatectl set-local-rtc 1 --adjust-system-clock
