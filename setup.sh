@@ -119,6 +119,16 @@ sudo usermod -aG docker $USER
 sudo usermod -aG docker root
 echo "Docker installed and started successfully! Please log out and log back in to apply group changes."
 
+# Configure Docker registry mirror
+echo "Configuring Docker registry mirror..."
+sudo bash -c 'cat > /etc/docker/daemon.json <<EOF
+{
+  "registry-mirrors": ["https://registry.docker.ir"]
+}
+EOF'
+sudo systemctl restart docker
+echo "Docker registry mirror configured successfully!"
+
 # Configure Git
 echo "Configuring Git..."
 git config --global user.name "Danial Mobini"
