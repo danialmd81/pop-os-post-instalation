@@ -56,6 +56,10 @@ A platform for developing, shipping, and running applications in containers.
 
 Cisco Packet Tracer is a powerful network simulation tool that allows you to design, configure, and troubleshoot network setups.
 
+### [Telegram](https://desktop.telegram.org/)
+
+Telegram is a cloud-based messaging app with a focus on speed and security.
+
 ## Usage
 
 1. Follow the links above to download and install the recommended tools.

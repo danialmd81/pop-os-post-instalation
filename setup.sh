@@ -127,10 +127,6 @@ git config --global core.editor "code --wait"
 git config --global init.defaultBranch main
 echo "Git configured successfully!"
 
-# gnome-extensions-cli
-# install using pip
-pip3 install --upgrade gnome-extensions-cli
-
 # Install GNOME Extensions
 echo "Installing GNOME Extensions..."
 gext install 517 240 945 36 6003 1634
@@ -196,6 +192,24 @@ wget -O packettracer.deb https://www.netacad.com/portal/resources/file/PacketTra
 sudo apt install ./packettracer.deb -y
 rm packettracer.deb
 echo "Cisco Packet Tracer installed successfully!"
+
+# Install Telegram
+echo "Installing Telegram..."
+wget -O telegram.tar.xz https://telegram.org/dl/desktop/linux
+sudo tar -xf telegram.tar.xz -C /opt/
+rm telegram.tar.xz
+sudo ln -s /opt/Telegram/Telegram /usr/local/bin/telegram
+sudo bash -c 'cat <<EOF > /usr/share/applications/telegram.desktop
+[Desktop Entry]
+Name=Telegram
+Comment=Telegram Desktop
+Exec=/usr/local/bin/telegram
+Icon=/opt/Telegram/Telegram.png
+Terminal=false
+Type=Application
+Categories=Network;InstantMessaging;
+EOF'
+echo "Telegram installed successfully!"
 
 # Fixing the System Clock
 echo "Fixing the system clock to match Windows time format..."
