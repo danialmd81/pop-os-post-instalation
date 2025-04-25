@@ -76,6 +76,22 @@ SMPlayer is a free media player with built-in codecs that can play virtually all
 
 Git LFS (Large File Storage) is an extension for Git that allows you to version control large files efficiently.
 
+### [Elisa Music Player](https://apps.kde.org/elisa/)
+
+Elisa is a simple and elegant music player that is part of the KDE ecosystem.
+
+### [gThumb](https://wiki.gnome.org/Apps/gthumb)
+
+gThumb is an image viewer and organizer for the GNOME desktop environment.
+
+### [GIMP](https://www.gimp.org/)
+
+GIMP is a free and open-source image editor for tasks such as photo retouching, image composition, and image authoring.
+
+### [Pinta](https://pinta-project.com/)
+
+Pinta is a simple yet powerful drawing and image editing application.
+
 ## Usage
 
 1. Follow the links above to download and install the recommended tools.
@@ -131,3 +147,11 @@ sqlmap is an open-source penetration testing tool that automates the process of 
 ### Add "Open as Administrator" to Context Menu
 
 This feature allows you to open folders as an administrator directly from the Nautilus context menu.
+
+### [HandBrake](https://handbrake.fr/)
+
+HandBrake is a free and open-source video transcoder for converting video from nearly any format to a selection of modern, widely supported codecs.
+
+### [MKVToolNix](https://mkvtoolnix.download/)
+
+MKVToolNix is a set of tools to create, alter, and inspect Matroska (MKV) files.

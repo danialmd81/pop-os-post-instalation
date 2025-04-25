@@ -242,6 +242,21 @@ sudo apt install -y git-lfs
 git lfs install
 echo "Git LFS installed and initialized successfully!"
 
+# Install Elisa Music Player
+echo "Installing Elisa Music Player..."
+sudo apt install -y elisa
+echo "Elisa Music Player installed successfully!"
+
+# Install gThumb, GIMP, and Pinta
+echo "Installing gThumb, GIMP, and Pinta..."
+sudo apt install -y gthumb gimp pinta
+echo "gThumb, GIMP, and Pinta installed successfully!"
+
+# Install HandBrake and MKVToolNix
+echo "Installing HandBrake and MKVToolNix..."
+sudo apt install -y handbrake mkvtoolnix mkvtoolnix-gui
+echo "HandBrake and MKVToolNix installed successfully!"
+
 # Fixing the System Clock
 echo "Fixing the system clock to match Windows time format..."
 sudo timedatectl set-local-rtc 1 --adjust-system-clock
